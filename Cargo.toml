@@ -1,0 +1,34 @@
+[package]
+name = "wgpu_raytracer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#Display
+#Window handling
+winit = "0.29.15"
+#WGPU
+wgpu = "22.1.0"
+
+#Tools
+#Random
+fastrand = "2.1.1"
+#Async implementation
+pollster = "0.3.0"
+#Vector math
+glam = "0.28.0"
+#Parallel iteration
+rayon = "1.10.0"
+
+#Utility
+#Logging
+log = "0.4.22"        #Log specification
+env_logger = "0.11.5" #Log implementation
+#Error handling utility
+anyhow = "1.0.86"
+#Byte casting utility
+bytemuck = { version = "1.17.0", features = ["derive"] }
+#Progress Bar
+indicatif = { version = "0.17.8", features = ["rayon"] }
+#CLI Arguments
+clap = { version = "4.5.16", features = ["derive"] }
