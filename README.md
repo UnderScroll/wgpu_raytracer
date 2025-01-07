@@ -1,3 +1,6 @@
+# wgpu_raytracer
+![screenshot](demo.png)
+
 ## How to Use:
 
 To compile and run the application, you need to have Rust and Cargo installed.  
